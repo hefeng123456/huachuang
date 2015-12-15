@@ -1,0 +1,21 @@
+
+.page{
+    background: url("../image/picture/huachuang.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.content_logo_xc{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.content_logo_xc>img{
+    width: 100%;
+}
+.content_imgVideo{
+    width: 100% ;
+    margin-top: 3rem;
+}
+.content_imgVideo>img{
+    margin:auto 35%;width: 80px ;height: 79px
+}

@@ -1,0 +1,68 @@
+*{
+    font-family: "bktfont", "Microsoft YaHei";
+    text-shadow: none;
+}
+.ui-page-theme-a .ui-btn{
+    background: #373737;
+    color: #fff;
+
+}
+.ui-page-theme-a .ui-bar-inherit{
+    background: none !important;
+}
+
+.footer_one{
+    width: 48%;
+    border: 1px solid #897D74;
+    border-top:none ;
+    float: right;
+    display: none;
+    margin-right: 2%;
+    border-radius:10px ;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: none !important;
+}
+.footer_a{
+    text-decoration: none;
+    color: #666;
+    font-size: .7rem;
+}
+.footer_one>ul{
+    width: 90%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+.footer_one>ul>li{
+    border-bottom: 1px solid #576C74;
+    line-height:1.5rem;
+    text-shadow: none !important;
+}
+.footer_one>ul>li>a{
+    text-shadow: none !important;
+}
+.ui-page-theme-a .ui-btn.ui-btn-active{
+    background: #fff;
+    color:#666 ;
+    text-shadow: none;
+}
+/*.ui-grid-a{*/
+    /*z-index: -1;*/
+/*}*/
+.ui-page-theme-a .ui-btn:focus{
+    box-shadow: none;
+}
+.ui-btn, label.ui-btn{
+    border: none !important;
+}
+.ui-navbar li .ui-btn{
+  line-height: 20px;
+    margin-bottom: 0 !important;
+}
+.mybtn{
+    border-left:1px solid #fff
+}

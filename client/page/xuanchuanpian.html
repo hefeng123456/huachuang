@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = 'viewport' content='width=device-width,initial-scale=1,user-scalable=no'>
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css"/>
+    <link rel="stylesheet" href="../css/ui.css"/>
+    <link rel="stylesheet" href="../css/xcvidi.css"/>
+    <title></title>
+</head>
+<body>
+<div data-role="page" class="page">
+<div data-role="content">
+    <div class="content_logo_xc"><img src="../image/logo/logo%20(3).png" alt=""/></div>
+     <div class="content_imgVideo" ><img src="../image/logo/logo%20(2).png" alt="" id="myimgvideotu"  /></div>
+    <!--<video src="../videoMv/videosp.mp4" autoplay="autoplay" loop="loop"  preload="auto" type="video/mp4" style="display: none"></video>-->
+</div>
+
+    <div data-role="footer" data-position="fixed" class="footer_asas" style="border-top: none;margin: 0;padding: 0" >
+        <div class="footer_one">
+            <ul>
+                <li><a href="http://wcj.nwx123.com/index.php?c=view&id=U609J3963A&from=singlemessage&isappinstalled=0" data-ajax="false" class="footer_a" style="color: #000;">长沙华创国际广场</a></li>
+                <!-- <li><a href="suofeihotel.html" data-ajax="false" class="footer_a" style="color: #000">长沙华创索菲特大酒店</a></li>
+                <li><a href="huanqiujinrongzhongx1.html" class="footer_a" data-ajax="false" style="color: #000">长沙华创环球金融中心</a></li> -->
+                <li><a href="xuanchuanpian.html"  class="footer_a" data-ajax="false" style="color: #000">长沙华创国际广场宣传片</a></li>
+            </ul>
+        </div>
+        <div data-role="navbar" style="height: 37px;">
+            <ul>
+                <li ><a href="huachuangjituan.html" data-ajax="false" style="text-shadow: none">华创地产集团</a></li>
+                <li class="mybtn"><a href="#"  style="text-shadow: none">长沙华创国际广场</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/jquery.mobile-1.4.5.js"></script>
+<script>
+    $(".mybtn").click(function(){
+        $(".footer_one").toggle();
+        $(".ui-grid-a").css({"z-index":"-1"})
+    });
+    $("#myimgvideotu").click(function(){
+      document.location.href="video.html";
+    })
+</script>
+</html>

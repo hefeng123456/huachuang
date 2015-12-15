@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = 'viewport'  content='width=device-width,initial-scale=1,user-scalable=no'>
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css"/>
+    <link rel="stylesheet" href="../css/ui.css"/>
+    <style>
+        /*page1*/
+        .banner {
+            background:url("../image/picture/zu1.png")no-repeat;
+            background-size: cover ;
+            /*background-size: 100% 100%;*/
+            height: 450px
+        }
+        .dyh_con1{
+            width: 100% ;margin-top: 3.5rem;padding: 0
+        }
+        .dyh_img{
+            width: 55%;margin:0 auto
+        }
+
+        /*end*/
+
+
+        /*page2*/
+        .banner1{
+            background:url("../image/picture/huachuang.png")no-repeat;
+            background-size: cover ;
+            /*background-size: 100% 100%;*/
+        }
+        .dyh_con2 {
+            width: 70%;
+            margin: 6em auto;
+            background-color: rgba(255, 255, 255, 0.82);
+        }
+        .dyh_img1{
+            width: 80%;
+            margin: 0 auto;
+            padding: 1rem;
+            padding-bottom: 0 !important;
+        }
+        .dyh_text{
+            padding-bottom: 1rem;
+            background-color: rgba(255, 255, 255, 0.82);
+        }
+
+        .dyh_text p:nth-child(1){
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            width: 85%;
+            font-size:.7rem;
+            margin: 0 auto;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+            text-align:justify;
+            background-color: rgba(255, 255, 255, 0.81);
+        }
+        /*end*/
+
+        /*page3*/
+        .dyh_con3{
+            width: 90%;
+            margin: 6em auto;
+        }
+        .text3 p{
+            border-top: 1px solid #000000;
+            border-bottom: 1px solid black;
+            margin-top: 1rem;
+            padding-top: .5rem;
+            width: 100%;
+            font-size:.7rem;
+            text-align: justify;
+        }
+        /*end*/
+
+        /*page4*/
+        .banner4 {
+            background:url("../image/picture/528f070ae9da9.png")no-repeat;
+            background-size: cover ;
+        }
+
+        #dyh_con4{
+            width: 70%;margin: 0 auto;background-color: rgba(255, 255, 255, 0.81);padding-bottom: 1rem;
+        }
+
+        .text4 p{
+            border-top: 1px solid #000000;
+            border-bottom: 1px solid black;
+            width: 85%;
+            margin-top: 1rem;
+            padding-top: .5rem;
+            font-size:.7rem;
+            margin: 0 auto;
+            text-align: justify;
+        }
+        /*end*/
+
+        /*增加page*/
+        #page1_a{
+            background: url("../image/picture/150428.jpg") no-repeat;
+            background-size:cover ;
+
+        }
+        .dyh_page1_a_cont{
+            width: 60%;margin-top: -.5rem
+        }
+        .dyh_page1-dyh_img1{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .dyh_page1-dyh_dtext{
+            border-top: 1px solid #000;padding-top: .5rem;font-size: .7rem;text-align: justify
+        }
+        /*end*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0%;
+        }
+        .container .page{
+            height: 100%;
+            position: relative;
+        }
+    </style>
+    <title></title>
+</head>
+<body onmousewheel="return false">
+<div  data-role="page">
+    <div class="container">
+        <!--page4-->
+        <div class="page banner4" id="page4"  >
+
+            <div data-role="content" style="width: 100%" >
+                <div class="dyh_con4" id="dyh_con4" style="margin-top: 3rem" >
+                    <div><img src="../image/logo/logo1.png" alt=""style="margin:1em 1.5em" width="80%"/></div>
+                    <div class="text4">
+                        <p>湖南华创地产集团有限公司是一家以商业地产投资为主，集商业、住宅地产开发、高端酒店投资、
+                            商业运营、建筑施工、装饰设计和物业管理为一体的综合性、跨区域的大型民营企业。2013年3月27
+                            日，国务院发展研究中心、清华大学房地产研究所和中国指数研究院组织中国房地产百强企业年度评
+                            审，湖南华创地产集团2013、2014年连续两年入选"中国商业地产30强"。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--page3-->
+        <div class="page" id="page3"  >
+            <div><img src="../image/picture/zhu2.png" width="50%" style="float: left" alt=""/></div>
+            <div data-role="content" >
+                <div class="dyh_con3">
+                    <div class="dyh_img3"><img src="../image/logo/logo1.png" alt=""style="" width="100%"/></div>
+                    <div class="text3">
+                        <p>湖南华创地产集团有限公司是在1998年成立的中方建筑工程有限公司基础上发展壮大起来的，
+                            总部位于湖南省长沙市，现有员工2000余人，公司旗下企业共有9家…到目前为止，
+                            公司商业开发总量200多万平方米，累计投入100多亿元，公司16年致力于商业地产开发，
+                            已成为中国专业商业地产运营商。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div data-role="footer" data-position="fixed" class="footer_asas" style="border-top: none;margin: 0;padding: 0" >
+            <div class="footer_one">
+                <ul>
+                    <li><a href="http://wcj.nwx123.com/index.php?c=view&id=U609J3963A&from=singlemessage&isappinstalled=0" data-ajax="false" class="footer_a" style="color: #000;">长沙华创国际广场</a></li>
+                    <!-- <li><a href="suofeihotel.html" data-ajax="false" class="footer_a" style="color: #000">长沙华创索菲特大酒店</a></li>
+                    <li><a href="huanqiujinrongzhongx1.html" class="footer_a" data-ajax="false" style="color: #000">长沙华创环球金融中心</a></li> -->
+                    <li><a href="xuanchuanpian.html"  class="footer_a" data-ajax="false" style="color: #000">长沙华创国际广场宣传片</a></li>
+                </ul>
+            </div>
+            <div data-role="navbar" style="height: 37px;margin: 0">
+                <ul>
+                    <li ><a href="#" style="text-shadow: none">华创地产集团</a></li>
+                    <li class="mybtn" style=""><a href="#"  style="text-shadow: none">长沙华创国际广场</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/jquery.mobile-1.4.5.js"></script>
+<script type="text/javascript" src="../js/jquery.touchSwipe.min.js"></script>
+<!--<script src="../js/swiper.min.js"></script>-->
+<script>
+    $(".mybtn").click(function(){
+        $(".footer_one").toggle();
+        $(".ui-grid-a").css({"z-index":"-1"})
+    });
+    $(document).ready(
+            function() {
+                var nowpage = 0;
+                //给最大的盒子增加事件监听
+                $(".container").swipe(
+                        {
+                            swipe:function(event, direction, distance, duration, fingerCount) {
+                                if(direction == "up"){
+                                    nowpage = nowpage + 1;
+                                }else if(direction == "down"){
+                                    nowpage = nowpage - 1;
+                                }
+                                if(nowpage > 1){
+                                    nowpage = 1;
+                                }
+                                if(nowpage < 0){
+                                    nowpage = 0;
+                                }
+                                $(".container").animate({"top":nowpage * -100 + "%"},400);
+
+                                $(".page").eq(nowpage).addClass("cur").siblings().removeClass("cur");
+                            }
+                        }
+                );
+            }
+    );
+</script>
+</html>

@@ -1,0 +1,16 @@
+.page{
+    background: url("../image/weizhaoshang/lianxiwm.png") no-repeat;
+    background-size: cover;
+}
+*{
+    text-shadow: none;
+    color: #333;
+}
+.lxwm_content1 div{
+    display: inline-block;
+    font-size: .8rem;
+
+}
+.lxwm_content-text{
+    line-height: 1.5rem;font-size: .8rem
+}

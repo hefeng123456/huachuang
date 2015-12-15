@@ -1,0 +1,60 @@
+*{
+    font-family: "bktfont", "Microsoft YaHei";
+}
+.header{
+    background:#F1F1F1;
+    text-shadow: none;
+    color: #C88A5C;
+}
+.header>ul>li:nth-child(1){
+    /*border: 1px solid crimson;*/
+    display: inline-block;
+    line-height: 36px;
+    width: 20%;
+    position: relative;
+    top: .4rem;
+    left: -1.5rem;
+}
+.header>ul>li>a>p{
+    display: inline-block;
+    position: relative;
+    top: -.4rem;
+    left: .2rem;
+    color: #9f9f9f;
+    font-size: .9rem;
+    /*border: 1px solid crimson;*/
+}
+.header ul li:nth-child(2){
+    display: inline-block;
+    /*border: 1px solid red;*/
+    font-size: 1.3rem;
+    width: 55%;
+    text-align: center;
+}
+.header>ul>li:nth-child(3){
+    display: inline-block;
+    /*line-height: 36px;*/
+    width: 21%;
+    position: relative;
+    text-align: right;
+    top: .4rem;
+    left: -1.5rem;
+}
+/*.contentone:before{*/
+    /*content:"服务";*/
+    /*position: absolute;*/
+    /*background-color:yellow;*/
+    /*color:red;*/
+    /*font-weight:bold;*/
+    /*width:4rem;*/
+    /*line-height: 4rem;*/
+    /*text-shadow: none;*/
+    /*text-align: center;*/
+    /*margin-left: 38%;*/
+    /*border-radius:50px ;*/
+    /*margin-top: 1rem;*/
+/*}*/
+
+
+
+

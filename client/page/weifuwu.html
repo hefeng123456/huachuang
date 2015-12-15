@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = 'viewport'  content='width=device-width,initial-scale=1,user-scalable=no'>
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css"/>
+    <link rel="stylesheet" href="../css/weifuwuheader.css"/>
+    <link rel="stylesheet" href="../css/weifuwu.css"/>
+    <title></title>
+</head>
+<body>
+<div data-role="page" class="page" >
+
+    <!--<div data-role=" header" class="header" >-->
+       <!--<ul style="margin-top: 0">-->
+           <!--<li><a href="weizhaoshangindex.html" data-ajax="false" ><img src="../image/weizhaoshang/icon-back.png" alt="" height="25px" style="margin-top: 1rem"/><p>返回</p></a></li>-->
+           <!--<li>微服务</li>-->
+       <!--</ul>-->
+    <!--</div>-->
+    <div data-role="content" style="margin-top: 3rem">
+        <div class="contentone">
+            <div class="wfwa-content ui-grid-a" >
+                <div class="ui-block-b wfwa-content1">
+                    <div class="wfwa-content1-img">
+                        <img src="../image/weizhaoshang/Help_398px_1158464_easyicon.net.png"  alt=""/></div>
+                    <div>咨 询</div>
+                </div>
+                <div class="ui-block-b wfwa-content2 " >
+                    <div class="wfwa-content2-img">
+                        <img src="../image/weizhaoshang/Help_256px_1120217_easyicon.net.png"  alt=""/></div>
+                    <div>客 诉</div></div>
+            </div>
+            <div style="border-top: 1px solid #9f9f9f;width: 60%;margin: 0 auto"></div>
+            <div class="wfwa-content ui-grid-a">
+                <div class="ui-block-b wfwa-content1 " >
+                    <div class="wfwa-content1-img">
+                        <img src="../image/weizhaoshang/voice_horn_533px_1147077_easyicon.net.png"  alt=""/></div>
+                    <div>广 播</div></div>
+                <div class="ui-block-b wfwa-content2 ">
+                    <div class="wfwa-content2-img">
+                        <img src="../image/weizhaoshang/Untitled-50.png"  alt=""/></div>
+                    <div >优 惠</div></div>
+            </div>
+            <div class="fuwu">
+                <p>服 务</p>
+            </div>
+        </div>
+        <div class="contentone">
+            <div class="wfwa-content ui-grid-a" >
+                <div class="ui-block-b wfwa-content1">
+                    <div class="wfwa-content1-img">
+                        <img src="../image/weizhaoshang/Rain_umbrella_423px_1191904_easyicon.net.png"  alt=""/></div>
+                    <div>雨 伞</div></div>
+                <div class="ui-block-b wfwa-content2 " >
+                    <div class="wfwa-content2-img">
+                        <img src="../image/weizhaoshang/Untitled-43.png"  alt=""/></div>
+                    <div>童 车</div></div>
+            </div>
+            <div style="border-top: 1px solid #9f9f9f;width: 60%;margin: 0 auto"></div>
+            <div class="wfwa-content ui-grid-a">
+                <div class="ui-block-b wfwa-content1 " >
+                    <div class="wfwa-content1-img" >
+                        <img src="../image/weizhaoshang/Untitled-46.png" style="width: 100%" alt=""/></div>
+                    <div>包 装</div></div>
+                <div class="ui-block-b wfwa-content2 ">
+                    <div class="wfwa-content2-img">
+                        <img src="../image/weizhaoshang/font-358.png"  alt=""/></div>
+                    <div>其 它</div></div>
+            </div>
+            <div class="fuwu">
+                <p>便 利</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="zfuw_zzhaoc" style="display: none">
+
+    </div>
+    <div data-role="footer" data-position="fixed" class="fuwi-footer" style="display: none;">
+
+        <ul class="xuanz">
+            <li class="xuanzhe" ><a href="tel:15121005982"><div class="ui-ul">选择电话</div></a></li>
+            <li class="xuanzhe"><a href="#"><div class="ui-ul">在线服务</div></a></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/jquery.mobile-1.4.5.js"></script>
+<script>
+    $(".wfwa-content1").click(function(){
+        $(".fuwi-footer").toggle();
+        $(".zfuw_zzhaoc").toggle();
+        console.log("进入行数")
+    })
+    $(".wfwa-content2").click(function(){
+        $(".fuwi-footer").toggle();
+        $(".zfuw_zzhaoc").toggle();
+        console.log("进入行数")
+    })
+</script>
+</html>

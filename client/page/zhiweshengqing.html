@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = 'viewport'  content='width=device-width,initial-scale=1,user-scalable=no'>
+    <link rel="stylesheet" href="../css/jqchonggou.min.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <title></title>
+    <style>
+        body{
+            background: #fff;
+        }
+        .ui-btn ul{margin: 0;padding: 0}
+        .header ul{margin: 0px;padding: 0px;color: #333}
+        .header ul li{display: inline-block;line-height: 1.2rem}
+        .ui-page-theme-a .ui-btn{
+           line-height: .7rem;
+        }
+        .ui-select .ui-btn>span:not(.ui-li-count){
+            display: inline-block;
+            padding: 0px;
+            line-height: 1rem;
+        }
+        .ui-btn{
+         text-align: left;
+            font-weight:normal;
+        }
+
+    </style>
+</head>
+<body>
+<div data-role="page">
+    <!--header-->
+
+    <!--end-->
+    <div data-role="content">
+
+        <div class="header">
+            <ul>
+                <li style="position: relative;left: .5rem">
+                    <img src="../image/weizhaoshang/iconfont-gongzuozhiwei.png" style="height: 25px;position: relative;left: -.5rem;top: .5rem" /> <p style="display: inline-block">楼层经理</p></li>
+            </ul>
+        </div>
+
+        <div class="">
+            <div>
+                <input type="text" placeholder="  请填写您的姓名">
+            </div>
+            <label for="">
+                <img src="../image/weizhaoshang/Path%2015.png"  style="position: absolute;z-index: 222;height: 10px;top:8.5rem;left: 84%" alt=""/>
+                <select name="day" id="sex" style="width: 100%">
+                    <optgroup label="" >
+                        <option value="mon" >请选择您的性别</option>
+                        <option value="tue">男</option>
+                        <option value="wed">女</option>
+                    </optgroup>
+                </select>
+            </label>
+
+            <input type="text" placeholder="  请填写你的生高" >
+            <label for=""style="border: 1px solid #FFF;margin-top: -.5rem;margin-bottom: -.5rem"><p id="mY-on" style="position: absolute;top: 13rem;left: 2rem;color: #A9A9A9">请填写你的生日</p><input type="month"id="mY_dataone" ></label>
+
+            <input type="text" placeholder="  请填写您的手机号" >
+            <input type="text" placeholder="  请填写您的学历">
+            <button style="color: #fff;text-align: center;margin-top: 1rem;background: #333;text-shadow: none">提交信息</button>
+        </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/jquery.mobile-1.4.5.js"></script>
+<script>
+    $("#mY_dataone").click(function(){
+        $("#mY-on").toggle();
+    })
+</script>
+
+</html>

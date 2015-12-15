@@ -1,0 +1,35 @@
+.page1{
+    background: url("../image/picture/Bitmap2@3x.png") no-repeat;
+    background-size: 100% 100%
+}
+.page2{
+    background: url("../image/picture/Bitmap.png") no-repeat;
+    background-size: 100% 100%;
+}
+.sft_con1{
+    width: 61%;
+    padding: 1.2rem;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.sft_con2{
+    width: 65%;
+    padding: 1.2rem;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.content_text1{
+    font-size:.7rem;
+    text-align:justify;
+    border-top: 1px solid #333;
+    margin-top: .5rem;
+    line-height: 1rem;
+}
+.content_text2{
+    font-size:.7rem;
+    text-align:justify;
+    border-top: 1px solid #333;
+    margin-top: .5rem;
+    line-height: 1rem;
+}
+
